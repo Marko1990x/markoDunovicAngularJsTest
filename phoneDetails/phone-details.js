@@ -1,7 +1,7 @@
 angular.module('MainApp')
     .component('phoneDetails', {
         template: 
-        `Odabran je telefon sa ID: <span>{{$ctrl.phoneId}}</span> <br>`,
+        `Odabrana je Slika sa ID: <span>{{$ctrl.phoneId}}</span> <br>`,
         controller: ['$routeParams',
         function PhoneDetailsController($routeParams) {
             this.phoneId = $routeParams.phoneId;

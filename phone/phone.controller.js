@@ -1,20 +1,20 @@
 angular.module('MainApp').controller('PhoneController', function($scope){
-    $scope.title = 'Phone page';
+    $scope.title = 'Stranica sa gallerijom';
     $scope.phones = [
         {
-            name: "Nexus 5",
-            snippet: "Ovo je deo 1X",
-            id: 1
+            name: "picture of a flower 1",
+            snippet: "ovo je flower 1",
+            id: 1,
         },
         {
-            name: "Bla bla 3",
-            snippet: "Ovo je deo 2",
-            id: 2
+            name: "picture of a cat",
+            snippet: "ovo je slika macke",
+            id: 2,
         },
         {
-            name: "Nokia",
-            snippet: "Ovo je deo 3",
-            id: 3
+            name: "picture of a bird",
+            snippet: "ovo je slika ptice",
+            id: 3,
         }
         
     ]

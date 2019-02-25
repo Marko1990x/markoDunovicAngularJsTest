@@ -1,9 +1,10 @@
 <div ng-controller='PhoneController'>
     <h2>{{title}}</h2>
     <ul>
-        <li ng-repeat="phone in phones">
-            <a href="#!phones/{{phone.id}}">ID telefona</a>
+        <li ng-repeat="phone in phones" class="secondRepeater">
+            <a href="#!phones/{{phone.id}}">ID Slike</a>
             <p>{{ phone.snippet }}</p>
+            <p>{{phone.img}}</p>
         </li>
     </ul>
 </div>
